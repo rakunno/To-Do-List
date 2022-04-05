@@ -12,7 +12,7 @@
 <hr>
 <br>
 <a href='https://rakunnotodolist.netlify.app/'>
-<img src='./github/animacao.gif'>
+<img src='./github/todo.gif'>
 </a>
 <br>
 <br>
