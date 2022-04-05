@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 type DisplayVisibleProps = {
   isActive: boolean;
-  };
-
+};
 
 export const Container = styled.div`
   background: var(--ligth-blue);
@@ -12,9 +11,9 @@ export const Container = styled.div`
   min-height: calc(100vh - 70px);
   display: flex;
   gap: 20px;
-  @media(max-width: 768px) {
-      flex-wrap: wrap;
-    }
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const Task = styled.div`
@@ -35,8 +34,7 @@ export const TaskEdit = styled.div`
   display: flex;
   justify-content: space-between;
 `;
-export const TaskEditDate = styled.h5`
-`;
+export const TaskEditDate = styled.h5``;
 export const TaskEditImg = styled.img`
   height: 30px;
   cursor: pointer;
@@ -69,26 +67,25 @@ export const DisplayVisible = styled.div<DisplayVisibleProps>`
 // `;
 
 export const TitleStatus = styled.div`
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    display: flex;
-    margin: 40px 0;
-    @media(max-width:768px) {
-      h1{
-        font-size: 25px;
-      }
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+  margin: 40px 0;
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 25px;
     }
+  }
 `;
 // export const TaskContainsArea = styled.div`
 // display: grid;
 // grid-template-columns: repeat(3, 1fr);
 // `;
 
-
 export const TasksStatusArea = styled.div`
-    width: 33.33%;
-    @media(max-width: 768px) {
-      width: 100%;
-    }
+  width: 33.33%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;

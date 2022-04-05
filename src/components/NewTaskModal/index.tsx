@@ -1,9 +1,7 @@
 import { FormEvent, useEffect, useState } from "react";
 import Modal from "react-modal";
 import { Container } from "./style";
-import { useTodo } from '../../contexts/TodoContext';
-
-
+import { useTodo } from "../../contexts/TodoContext";
 
 interface NewTaskModalProps {
   isOpen: boolean;
@@ -20,7 +18,6 @@ interface Tasks {
 }
 
 export function NewTaskModal({ isOpen, onRequestClose }: NewTaskModalProps) {
-
   const initialValue: Tasks = {
     title: "",
     description: "",
@@ -30,9 +27,7 @@ export function NewTaskModal({ isOpen, onRequestClose }: NewTaskModalProps) {
     status: "newtask",
   };
   const [task, setTask] = useState<Tasks>(initialValue);
-  const {addTodo} = useTodo();
-
-
+  const { addTodo } = useTodo();
 
   function handleCreateNewTask(event: FormEvent) {
     event.preventDefault();
@@ -56,7 +51,11 @@ export function NewTaskModal({ isOpen, onRequestClose }: NewTaskModalProps) {
           <label htmlFor="">Title</label>
           <input
             value={task.title}
-            onChange={(event) => setTask((oldState) => ({...oldState, title: event.target.value}))
+            onChange={(event) =>
+              setTask((oldState) => ({
+                ...oldState,
+                title: event.target.value,
+              }))
             }
           />
 

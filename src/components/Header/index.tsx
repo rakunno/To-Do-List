@@ -1,5 +1,5 @@
 import { Container, HeaderContains, HeaderImg, HeaderTitle } from "./style";
-import _ from 'lodash';
+import _ from "lodash";
 import dashboardImg from "../../assets/dashboard.svg";
 import { useLocation } from "react-router-dom";
 
@@ -16,12 +16,12 @@ export function Header() {
     data.innerHTML = dateFormat;
     return dateFormat;
   }
-  const location = useLocation()
-  const title = _.capitalize(location.pathname.replace('/','') || 'Dashboard') 
+  const location = useLocation();
+  const title = _.capitalize(location.pathname.replace("/", "") || "Dashboard");
   return (
     <Container>
       <HeaderContains>
-        <HeaderImg src={dashboardImg} alt={title}/>
+        <HeaderImg src={dashboardImg} alt={title} />
         <HeaderTitle>{title}</HeaderTitle>
       </HeaderContains>
       <div className="date"></div>

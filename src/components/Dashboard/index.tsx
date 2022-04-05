@@ -54,7 +54,7 @@ export function Dashboard() {
       <Contains>
         <InprogressArea>
           <Paragraph>Improgress</Paragraph>
-          
+
           {listTodo.map((data, index) => {
             if (data.status === "inprogress") {
               return (
@@ -70,10 +70,9 @@ export function Dashboard() {
           })}
         </InprogressArea>
 
-        
         <EventArea>
           <Paragraph>Next Event</Paragraph>
-          
+
           <EventAreaContains>
             {listTodo.map((data, index) => {
               if (data.status === "newtask") {
