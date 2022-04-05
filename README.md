@@ -11,7 +11,9 @@
 </p>
 <hr>
 <br>
+<a href='https://rakunnotodolist.netlify.app/'>
 <img src='./github/animacao.gif'>
+</a>
 <br>
 <br>
 <hr>
