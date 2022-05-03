@@ -1,6 +1,6 @@
 <h1 align='center'>To Do Aplication</h1>
 <p align='center'>Este projeto é uma Lista de tarefas onde pode ser adicionar, editar e deletar as tarefas.</p>
-<p><a href='https://rakunnotodolist.netlify.app/'>Clique aqui para ver a aplicação funcionando</a></p>
+<p><a href='https://david-react-to-do-list.netlify.app/'>Clique aqui para ver a aplicação funcionando</a></p>
 
 <p align='center'>
 <a href='#feature'>Features</a> |
