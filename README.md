@@ -11,7 +11,7 @@
 </p>
 <hr>
 <br>
-<a href='https://rakunnotodolist.netlify.app/'>
+<a href='https://david-react-to-do-list.netlify.app/'>
 <img src='./github/todo.gif'>
 </a>
 <br>
